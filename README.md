@@ -17,21 +17,20 @@ There were four types of information collected, which helped cluster the restaur
 
 LDA Topic Modeling was used to reduce the dimensions of *Cuisine Names* and *Dish Names* to fit into our final clustering model. K-means was selected as our final clustering model.
 
-![full_model](/static/images/full_model.png | width=100)
-<img src="/static/images/full_model.png" width="40%">
+<img src="/static/images/full_model.png" width="70%">
 
 The results enabled us to differentiate high level cuisine type restaurants. See below for example:
-![cluster_naming](/static/images/cluster_naming.png =300x300)
+<img src="/static/images/cluster_naming.png" width="40%">
 
 **Related blog post:**[So you Want to Open a Ghost Kitchen](https://www.paulynnyu.com/trendstogo1)
 
 The related notebook can be found here in these 
 ### 2. Finding Market Gaps through Creating a Clone ###
 Cities are inherently different. iHouston is different from New York, so don't expect Italian places to do equally well in Houston as it does in New York. So how exactly do we compare between cities? We can choose to compare a city with cities similar to itself (sister cities) via similiarities in Food Importance. 
-![Houston-sisters](/static/images/houston_sisters.png =300x300)
+<img src="/static/images/houston_sisters.png" width="40%">
 
 Better yet, we can create a clone.
-![clone-houston](/static/images/clone-houston.png =300x300)
+<img src="/static/images/clone-houston.png" width="40%">
 
 **Related Blog Post:** [Cities Aren't Alike, So Create a Clone](https://www.paulynnyu.com/trendstogo2/)
 
