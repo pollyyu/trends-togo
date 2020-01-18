@@ -48,6 +48,18 @@ The data was obtained by making a direct API call to Grubhub. The first step was
 
 The data was mostly parsed and kept in a postgres database. Only review data is updated weekly to update the streamlit app.
 
+## Modules
+**model - Clustering model and finding market gaps**
+
+### Requirements
+numpy 1.16.1
+scipy 1.2.2
+pandas 0.24.2
+matplotlib 1.5.1
+psycopg2 2.6.1
+gensim 3.8.1
+streamlit 0.53.0
+
 ## Future Work
 In the future, I'd like to incorporate the following improvements to the project: 
 1. Forecasting at a City and Food Topic level
