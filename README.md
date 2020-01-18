@@ -58,7 +58,7 @@ pandas 0.24.2\
 matplotlib 1.5.1\
 psycopg2 2.6.1\
 gensim 3.8.1\
-streamlit 0.53.0\
+streamlit 0.53.0
 
 ## Future Work
 In the future, I'd like to incorporate the following improvements to the project: 
