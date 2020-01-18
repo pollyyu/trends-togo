@@ -21,7 +21,9 @@ LDA Topic Modeling was used to reduce the dimensions of *Cuisine Names* and *Dis
 
 The related notebook can be found here in these 
 ### 2. Finding Market Gaps through Creating a Clone ###
-Cities are inherently different. Houston is different from New York, so don't expect Italian places to do equally well in Houston as it does in New York. So how exactly do we compare between cities? We can choose to compare a city with cities similar to itself (sister cities) via similiarities in Food Importance. Better yet, we can create a clone.
+Cities are inherently different. iHouston is different from New York, so don't expect Italian places to do equally well in Houston as it does in New York. So how exactly do we compare between cities? We can choose to compare a city with cities similar to itself (sister cities) via similiarities in Food Importance. 
+![Houston-sisters](/static/images/houston_sisters.png)
+Better yet, we can create a clone.
 
 **Related Blog Post:** [Cities Aren't Alike, So Create a Clone](https://www.paulynnyu.com/trendstogo2/)
 
