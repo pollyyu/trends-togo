@@ -52,6 +52,7 @@ The data was mostly parsed and kept in a postgres database. Only review data is 
 **model - Clustering model and finding market gaps**
 - cluster-model.ipynb - NLP and clustering model to create 30 restaurant profiles
 - clone-city.ipynb - find market gaps by creating sister cities; a concrete example with Houston
+- topic-naming.ipynb - curate important information we fed into our clustering model, to inform the Topic naming
 
 ### Requirements
 numpy 1.16.1\
