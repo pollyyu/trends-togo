@@ -5,9 +5,9 @@ trendstogo plots food trends at a City and Food Topic level. The data was obtain
 This project was incepted from a desire to find food trends in the US and an empathy towards restaurants as a difficult business to run. Food delivery 
 
 The three blog posts written about this project can be found here:
-- [So you Want to Open a Ghost Kitchen](#https://www.paulynnyu.com/trendstogo1)
-- [Cities Aren't Alike, So Create a Clone](#https://www.paulynnyu.com/trendstogo2/)
-- [Being Bullish about ... Bulls?](#https://www.paulynnyu.com/trendstogo3/)
+- [So you Want to Open a Ghost Kitchen](https://www.paulynnyu.com/trendstogo1)
+- [Cities Aren't Alike, So Create a Clone](https://www.paulynnyu.com/trendstogo2/)
+- [Being Bullish about ... Bulls?](https://www.paulynnyu.com/trendstogo3/)
 
 ## Modules
 ### Clustering Model & Insights
