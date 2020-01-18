@@ -39,17 +39,7 @@ def topic_info(topic_list):
 
 def run_the_app(app_mode):
 	@st.cache #to download the data from endpoint only once
-	def load_data():
-		with open("df_keras.pickle", "rb") as f:
-			df_keras = pickle.load(f)
-		with open("topic_plot.pickle","rb") as f:
-			topic_plot = pickle.load(f)
-		with open("city_plot.pickle","rb") as f:
-			city_plot = pickle.load(f)
-		return df_keras, topic_plot, city_plot
 
-	df_keras,topic_plot, city_plot = load_data()
-	df_keras = df_keras.loc[:,'2018-03-03':'2019-11-17'] # taking the date after 2018-03-11 because data before that is sparse
 	frame_selector_ui(df_keras, topic_plot, city_plot, app_mode)
 
 def frame_selector_ui(df,topic_plot, city_plot, app_mode):
