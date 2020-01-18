@@ -16,6 +16,7 @@ There were four types of information collected, which helped cluster the restaur
 1. Variabilty of menu
 
 LDA Topic Modeling was used to reduce the dimensions of *Cuisine Names* and *Dish Names* to fit into our final clustering model. K-means was selected as our final clustering model.
+
 ![full_model](/static/images/full_model.png | width=100)
 
 The results enabled us to differentiate high level cuisine type restaurants. See below for example:
