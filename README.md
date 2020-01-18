@@ -19,18 +19,20 @@ LDA Topic Modeling was used to reduce the dimensions of *Cuisine Names* and *Dis
 
 <img src="/static/images/full_model.png" width="70%">
 
-The results enabled us to differentiate high level cuisine type restaurants. See below for example:
-<img src="/static/images/cluster_naming.png" width="40%">
+The results enabled us to differentiate high level cuisine type restaurants. See below as an example:
+<img src="/static/images/cluster_naming.png" width="70%">
 
 **Related blog post:**[So you Want to Open a Ghost Kitchen](https://www.paulynnyu.com/trendstogo1)
 
 The related notebook can be found here in these 
 ### 2. Finding Market Gaps through Creating a Clone ###
 Cities are inherently different. iHouston is different from New York, so don't expect Italian places to do equally well in Houston as it does in New York. So how exactly do we compare between cities? We can choose to compare a city with cities similar to itself (sister cities) via similiarities in Food Importance. 
-<img src="/static/images/houston_sisters.png" width="40%">
+
+<img src="/static/images/houston_sisters.png" width="70%">
 
 Better yet, we can create a clone.
-<img src="/static/images/clone-houston.png" width="40%">
+
+<img src="/static/images/clone-houston.png" width="70%">
 
 **Related Blog Post:** [Cities Aren't Alike, So Create a Clone](https://www.paulynnyu.com/trendstogo2/)
 
