@@ -54,7 +54,12 @@ The data was mostly parsed and kept in a postgres database. Only review data is 
 - clone-city.ipynb - find market gaps by creating sister cities; a concrete example with Houston
 - topic-naming.ipynb - curate important information we fed into our clustering model, to inform the Topic naming
 
-### Requirements
+**visualization - python scripts accessing db to visualize on streamlit**
+- st_3.py - functions and modules creating visualization
+- data.py - functions to access db tables on postgres
+- Procfile - declare commands run by streamlit
+ 
+## Requirements
 numpy 1.16.1\
 scipy 1.2.2\
 pandas 0.24.2\
